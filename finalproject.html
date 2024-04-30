@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB-115 Final Project</title>
+    <link rel="stylesheet" href="finalproject.css"> 
+</head>
+<body>
+    <header>
+        <img src="Web115 final project banner.png" alt="Header Banner"> 
+    </header>
+
+    <main>
+        <section>
+            <h2>Create Your Weekly Meal Plan</h2>
+            <form id="mealPlanForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required><br><br>
+
+                <label for="goal">Weekly Goal:</label>
+                <input type="text" id="goal"><br><br>
+
+                <h3>Meal Plan for the Week</h3>
+                <label for="breakfast">Breakfast:</label>
+                <input type="text" id="breakfast"><br><br>
+
+                <label for="snack1">Snack 1:</label>
+                <input type="text" id="snack1"><br><br>
+
+                <label for="lunch">Lunch:</label>
+                <input type="text" id="lunch"><br><br>
+
+                <label for="snack2">Snack 2:</label>
+                <input type="text" id="snack2"><br><br>
+
+                <label for="dinner">Dinner:</label>
+                <input type="text" id="dinner"><br><br>
+
+                <button type="button" onclick="generateMealPlan()">Generate Meal Plan</button>
+                <button type="button" onclick="clearMealPlan()">Clear Meal Plan</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="projectJS.js"></script>
+</body>
+</html>
+
